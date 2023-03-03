@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./likes.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Network</h1>
+        <h2>Your Feed</h2>
+        <div class="columns">
+            <div class="left">
+                <div class="box" id="center">
+                    <img src="./user-circle.png" alt="pic-here">
+                    <br>
+                    <a href="#">Add an avatar</a>
+                    <div class="james">James Peterson</div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="box">
+                    <div class="top">
+                        <h3>Gerald F.</h3>
+                        <div class="likes">
+                            <p><span id="two">9</span> like(s)</p>
+                            <button class="like-btn" onclick="oneUp('#two')">Like</button>
+                        </div>
+                    </div>
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+                <div class="box">
+                    <div class="top">
+                        <h3>Julie A.</h3>
+                        <div class="likes">
+                            <p><span id="one-up">12</span> like(s)</p>
+                            <button class="like-btn" onclick="oneUp('#one-up')">Like</button>
+                        </div>
+                    </div>
+                    <p>Just finished my <a href="#">next comic,</a> check it out.</p>
+                </div>
+                <div class="box">
+                    <div class="top">
+                        <h3>Bobby G.</h3>
+                        <div class="likes">
+                            <p><span id="three">9</span> like(s)</p>
+                            <button class="like-btn" onclick="oneUp('#three')">Like</button>
+                        </div>
+                    </div>
+                    <p>I can't stop listening to the <a href="#">new album.</a> Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./likes_style.js"></script>
+</body>
+
+</html>
